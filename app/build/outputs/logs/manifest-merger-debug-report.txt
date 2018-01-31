@@ -4,6 +4,13 @@ ADDED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/Android
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/47bd9941bdf56127888508989da8d870/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e3af75eedd028fb88fc3758b658e73cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/46d052bbc1ff782ce328ee8ceff70c13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/d4d858f797bd3390a87ca222610fb764/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/d75c31484fd0c91574b7da09bfc1a134/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/f411992782c3fce272de44c7ffff0a4e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/root1/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/bcb7b4b6f5ca5c0ce5ac0578cf02fbe6/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:2:1-21:12
@@ -73,6 +80,20 @@ uses-sdk
 ADDED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:19:5-43
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:19:5-43
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:support-v4:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/47bd9941bdf56127888508989da8d870/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/47bd9941bdf56127888508989da8d870/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e3af75eedd028fb88fc3758b658e73cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e3af75eedd028fb88fc3758b658e73cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/46d052bbc1ff782ce328ee8ceff70c13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/46d052bbc1ff782ce328ee8ceff70c13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/d4d858f797bd3390a87ca222610fb764/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/d4d858f797bd3390a87ca222610fb764/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/d75c31484fd0c91574b7da09bfc1a134/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/d75c31484fd0c91574b7da09bfc1a134/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/f411992782c3fce272de44c7ffff0a4e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/root1/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/f411992782c3fce272de44c7ffff0a4e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/root1/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/bcb7b4b6f5ca5c0ce5ac0578cf02fbe6/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/root1/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/bcb7b4b6f5ca5c0ce5ac0578cf02fbe6/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:19:5-43
 INJECTED from /home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/AndroidManifest.xml:19:5-43
 	android:targetSdkVersion

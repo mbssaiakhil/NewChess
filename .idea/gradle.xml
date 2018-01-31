@@ -9,6 +9,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/dependencies" />
+            <option value="$PROJECT_DIR$/dependencies/apache.harmony" />
+            <option value="$PROJECT_DIR$/dependencies/java.rmi" />
+            <option value="$PROJECT_DIR$/dependencies/javax.activity" />
+            <option value="$PROJECT_DIR$/dependencies/javax.rmi" />
+            <option value="$PROJECT_DIR$/sapphire-core" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

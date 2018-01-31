@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 31 12:03:17 IST 2018
+#Wed Jan 31 14:04:59 IST 2018
 0.baseType=DIRECTORY
 0.base=/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/transforms/dexMerger/debug/49
 0.path=classes.dex

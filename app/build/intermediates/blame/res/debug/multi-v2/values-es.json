@@ -4,6 +4,23 @@
             "outputFile": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
             "map": [
                 {
+                    "source": "/home/root1/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/f411992782c3fce272de44c7ffff0a4e/res/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "57",
+                        "startColumns": "4",
+                        "startOffsets": "4040",
+                        "endColumns": "100",
+                        "endOffsets": "4136"
+                    }
+                },
+                {
                     "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/values-es/strings.xml",
                     "from": {
                         "startLines": "22,19,53,56,55,18,16,54,50,17,52,51,3,44,42,43,41,39,40,37,38,36,13,14,15,2,6,9,12,11,8,10,7,35,33,32,34,21,20,5,4,48,49,46,47,45",
