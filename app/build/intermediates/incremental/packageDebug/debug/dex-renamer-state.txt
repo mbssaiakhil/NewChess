@@ -1,0 +1,4 @@
+#Wed Jan 31 12:03:16 IST 2018
+base.0=/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/transforms/dexMerger/debug/49
+path.0=classes.dex
+renamed.0=classes.dex

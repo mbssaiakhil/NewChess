@@ -1,0 +1,662 @@
+[
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/layout_options.xml.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/layout/options.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/layout_options.xml.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/layout/options.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/rook_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/layout_instructions.xml.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/layout/instructions.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/layout_instructions.xml.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/layout/instructions.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/rook_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/layout_gnu.xml.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/layout/gnu.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/rook_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/layout_gnu.xml.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/layout/gnu.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/rook_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/layout_instructions.xml.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/layout/instructions.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/menu_main_menu.xml.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/layout_copyright2.xml.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/layout/copyright2.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/raw_copying.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/raw/copying"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/rook_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/menu_main_menu.xml.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/raw_copying.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/raw/copying"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_queen_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/queen_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/rook_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_pawn_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/pawn_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/rook_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_king_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/king_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/raw_copying.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/raw/copying"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_square_cursor.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/square_cursor.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_king_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/king_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/layout_copyright2.xml.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/layout/copyright2.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/layout_options.xml.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/layout/options.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/layout_gnu.xml.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/layout/gnu.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-ldpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_knight_black.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/knight_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-mdpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_bishop_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/bishop_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/menu_main_menu.xml.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_banner.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/banner.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/layout_copyright2.xml.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/layout/copyright2.xml"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/rook_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/ChessPorting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/ChessPorting/NewChess/app/src/main/res/drawable-hdpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_bishop_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-ldpi/bishop_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_knight_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/knight_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_pawn_black.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/pawn_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-hdpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-hdpi_queen_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-hdpi/queen_black.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_rook_white.png.flat",
+        "source": "/home/root1/StudioProjects/NewChess/app/src/main/res/drawable-mdpi/rook_white.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-ldpi_chessboard.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-ldpi/chessboard.png"
+    },
+    {
+        "merged": "/home/root1/StudioProjects/Chess Porting/NewChess/app/build/intermediates/res/merged/debug/drawable-mdpi_rook_black.png.flat",
+        "source": "/home/root1/StudioProjects/Chess Porting/NewChess/app/src/main/res/drawable-mdpi/rook_black.png"
+    }
+]

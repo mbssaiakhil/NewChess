@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kobi.chess"
+    android:versionCode="3"
+    android:versionName="1.02" >
+
+    <uses-sdk
+        android:minSdkVersion="27"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/king_white"
+        android:label="@string/app_name"
+        android:testOnly="true" >
+        <activity
+            android:name="kobi.chess.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kobi.chess.InstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="kobi.chess.OptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="kobi.chess.CopyrightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="kobi.chess.GNUActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="kobi.chess.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
