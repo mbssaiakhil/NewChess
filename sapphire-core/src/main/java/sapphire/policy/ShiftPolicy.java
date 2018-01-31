@@ -90,14 +90,8 @@ public class ShiftPolicy extends SapphirePolicy {
 		{
 			InetSocketAddress chosen =  candidates.get(0);
 
-			Boolean foundCurr = false;
 			for (InetSocketAddress node : candidates) {
-				if (node.equals(curr)) {
-					foundCurr = true;
-					continue;
-				}
-
-				if (foundCurr){
+				if (!(node.equals(curr))) {
 					chosen = node;
 					break;
 				}

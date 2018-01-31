@@ -22,6 +22,9 @@ package kobi.chess;
 
 import engine.ChessEngine;
 import engine.SimpleEngine;
+import sapphire.kernel.server.KernelServer;
+import sapphire.kernel.server.KernelServerImpl;
+import sapphire.oms.OMSServer;
 
 
 import android.app.Activity;
@@ -32,6 +35,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -44,6 +48,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.view.Gravity;
 
+import java.net.InetSocketAddress;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+
 public class MainActivity extends Activity {
 	public static final int ACITIVITY_OPTIONS = 1;
 	public static final int ACITIVITY_HELP = 0;
@@ -53,7 +61,8 @@ public class MainActivity extends Activity {
 	
 	private ChessEngine engine;
 	private int ply = 0;
-	private boolean moveEnabled = false;   
+	private boolean moveEnabled = false;
+	private SamplePrint samplePrint;
 	
 	
 	private MyHandler mMyHandler = new MyHandler();
@@ -68,6 +77,34 @@ public class MainActivity extends Activity {
 		startPoint = new Point();
 		endPoint = new Point();
 		movePoint = new Point();
+
+        // ToDo: Convert to a New Class having doInBackground and avoid using StrictMode
+        // Currently added following Strict Mode to allow network calls in main thread
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+
+		try {
+			Registry registry;
+
+			// ToDo: DO not use direct String to configure, convert to a Configuration file and use the IPs
+			String[] hostAddress = {"192.168.42.184", "22346", "10.0.2.15", "22345"};
+			registry = LocateRegistry.getRegistry(hostAddress[0], Integer.parseInt(hostAddress[1]));
+			OMSServer server = (OMSServer) registry.lookup("SapphireOMS");
+
+			KernelServer nodeServer = new KernelServerImpl(new InetSocketAddress(hostAddress[2], Integer.parseInt(hostAddress[3])), new InetSocketAddress(hostAddress[0], Integer.parseInt(hostAddress[1])));
+
+			NewChessManager newChessManager = (NewChessManager) server.getAppEntryPoint();
+
+			SamplePrint samplePrint = newChessManager.getSamplePrintManager();
+
+			for (int i = 0; i< 4; i++) {
+				samplePrint.printSampleLine();
+				samplePrint.printSampleLine2();
+				samplePrint.printSampleLine3();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	/** Called when the activity is first created. */
