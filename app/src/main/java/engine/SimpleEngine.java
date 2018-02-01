@@ -9,6 +9,10 @@ package engine;
 import chesspresso.position.*;
 import chesspresso.*;
 import chesspresso.move.*;
+import sapphire.app.SapphireObject;
+import sapphire.policy.ShiftPolicy;
+import sapphire.policy.migration.explicitmigration.ExplicitMigration;
+import sapphire.policy.migration.explicitmigration.ExplicitMigrationPolicy;
 
 
 import java.util.*;
@@ -19,28 +23,34 @@ import java.util.*;
  * To change the template for this generated type comment go to
  * Window&gt;Preferences&gt;Java&gt;Code Generation&gt;Code and Comments
  */
-public class SimpleEngine implements ChessEngine {
-
+public class SimpleEngine implements ChessEngine, SapphireObject<ExplicitMigrationPolicy> {
 	private Position position;
 	private boolean computerIsWhite;
 	private int ply;
-	public final static int MATE = 50000;
-	public final static int INF = 100000;
+
+	// Moved the following members to private as Sapphire Object does not allow to have public member variables
+	//public final static int MATE = 50000;
+	//public final static int INF = 100000;
+	private final static int MATE = 50000;
+	private final static int INF = 100000;
 	private long nodes;
 	private Map hashTable;
 	private int bscore;
 	private OpeningDB book;
 	private short killers[];
+	private static int cnt = 0;
 
 	public synchronized String lastMove() {
 		return Move.getString(position.getLastShortMove());
 	}
 	public SimpleEngine() {
 		killers = new short[200];
-		reset();
+		//reset();
+		position = Position.createInitialPosition();
+		ply = 0;
 		// load the book
 		book = ChessVisualizationTrainer.book;
-		
+
 	}
 	/* (non-Javadoc)
 	 * @see com.imaginot.chess.engine.ChessEngine#reset()
@@ -50,11 +60,16 @@ public class SimpleEngine implements ChessEngine {
 		ply = 0;
 	}
 
+	public void migrateObject() throws Exception {
+		System.out.println("Inside the migrateObject of app directly with count as " + cnt++);
+	}
+
 	/* (non-Javadoc)
 	 * @see com.imaginot.chess.engine.ChessEngine#go()
 	 */
 	public synchronized String go() {
-		System.out.println("Inside the go() of SimpleEngine");
+		System.out.println("---***---***PROCESSING BACKEND OF AUTOMATED MOVE - " + cnt++ + "***---***---");
+		//System.out.println("Inside the go() of SimpleEngine");
 		if (isDraw()) {
 			return "DRAW";
 		} else if (isMate()) {
@@ -101,11 +116,11 @@ public class SimpleEngine implements ChessEngine {
 					retval = retval + " MATE";
 				}
 				return retval
-					+ " ("
-					+ nodes
-					+ " nodes, eval="
-					+ bscore
-					+ ")";
+						+ " ("
+						+ nodes
+						+ " nodes, eval="
+						+ bscore
+						+ ")";
 			}
 		}
 	}
@@ -138,7 +153,7 @@ public class SimpleEngine implements ChessEngine {
 			   as yet unsorted section */
 			v = a[i];
 			e = eval[i];
-			/* Work backwards through the array, finding where v 
+			/* Work backwards through the array, finding where v
 			   should go */
 			j = i;
 
@@ -199,7 +214,7 @@ public class SimpleEngine implements ChessEngine {
 			   as yet unsorted section */
 			v = a[i];
 			e = eval[i];
-			/* Work backwards through the array, finding where v 
+			/* Work backwards through the array, finding where v
 			   should go */
 			j = i;
 
@@ -232,7 +247,7 @@ public class SimpleEngine implements ChessEngine {
 			/* Select the item at the beginning of the
 			   as yet unsorted section */
 			v = a[i];
-			/* Work backwards through the array, finding where v 
+			/* Work backwards through the array, finding where v
 			   should go */
 			j = i;
 
@@ -267,9 +282,13 @@ public class SimpleEngine implements ChessEngine {
 	}
 
 	// Alpha Beta window
-	public final int ABWIN = 30;
-	public final int SEARCH_DEPTH = 10; // 4 = 1 ply
-	public final int MAX_PLY = 6;
+	//public final int ABWIN = 30;
+	//public final int SEARCH_DEPTH = 10; // 4 = 1 ply
+	//public final int MAX_PLY = 6;
+
+	private int ABWIN = 30;
+	private int SEARCH_DEPTH = 10; // 4 = 1 ply
+	private int MAX_PLY = 6;
 
 	private short bestMove() {
 		short best = Move.ILLEGAL_MOVE;
@@ -324,7 +343,7 @@ public class SimpleEngine implements ChessEngine {
 
 	private int AlphaBeta(int depth, int alpha, int beta, int howDeep) {
 		nodes++;
-		
+
 
 		if (position.isStaleMate()) {
 			return 0;
@@ -332,7 +351,7 @@ public class SimpleEngine implements ChessEngine {
 		if (position.isMate()) {
 			return -MATE+(howDeep*10);
 		}
-		
+
 		int hashf = HashEntry.hashfALPHA;
 		int val;
 		if ((val = ProbeHash(howDeep, alpha, beta)) != HashEntry.valUNKNOWN)
@@ -342,7 +361,7 @@ public class SimpleEngine implements ChessEngine {
 			val = qsearch(alpha, beta,howDeep);
 			RecordHash(howDeep, val, HashEntry.hashfEXACT);
 			return val;
-		} 
+		}
 
 		short moves[] = position.getAllMoves();
 		sortMoves2(moves, howDeep);
@@ -355,10 +374,10 @@ public class SimpleEngine implements ChessEngine {
 			} catch (Exception e) {
 				continue;
 			}
-			
+
 			int piece = position.getPiece(Move.getFromSqi(moves[i]));
 			int toRow = Move.getToSqi(moves[i])/8;
-			
+
 			if (position.isCheck()) {
 				val = -AlphaBeta(depth, -beta, -alpha, howDeep + 1);
 			} else if (moves.length < 2) { // forcing move
@@ -366,12 +385,12 @@ public class SimpleEngine implements ChessEngine {
 			} else if (Move.isPromotion(moves[i])) { // pawn promotion
 				val = -AlphaBeta(depth, -beta, -alpha, howDeep + 1);
 			} else if ((piece == Chess.PAWN) &&
-				((toRow == 1) || (toRow == 6))) { // pawn to the seventh
+					((toRow == 1) || (toRow == 6))) { // pawn to the seventh
 				val = -AlphaBeta(depth, -beta, -alpha, howDeep + 1);
 			} else if (moves.length < 3) { // almost forcing
 				val = -AlphaBeta(depth - 2, -beta, -alpha, howDeep + 1);
 			} else if (position.getLastMove().isCapturing()) {
-				val = -AlphaBeta(depth - 2, -beta, -alpha, howDeep + 1);		
+				val = -AlphaBeta(depth - 2, -beta, -alpha, howDeep + 1);
 			} else {
 				val = -AlphaBeta(depth - 4, -beta, -alpha, howDeep + 1);
 			}
@@ -398,7 +417,7 @@ public class SimpleEngine implements ChessEngine {
 
 	private int qsearch(int alpha, int beta, int howDeep) {
 		nodes++;
-		
+
 		if (position.isStaleMate()) {
 			return 0;
 		}
@@ -407,7 +426,7 @@ public class SimpleEngine implements ChessEngine {
 		}
 		int val;
 		val = evaluate(howDeep+1, alpha, beta);
-		
+
 		if (val >= beta)
 			return beta;
 
@@ -446,12 +465,12 @@ public class SimpleEngine implements ChessEngine {
 			return 0;
 		}
 		int material = position.getMaterial();
-		
+
 		// lazy eval
 		if (material > (beta+300)) {
 			return material;
 		}
-		
+
 		int kingScore = 0;
 
 		if (position.getPlyNumber() < 40) {
@@ -477,19 +496,19 @@ public class SimpleEngine implements ChessEngine {
 				kingScore -= (position.getStone(49) == Chess.BLACK_PAWN)?20:0;
 				kingScore -= (position.getStone(50) == Chess.BLACK_PAWN)?10:0;
 			}
-			
+
 		}
 		kingScore += positionalEval();
 		kingScore = (position.getToPlay() == Chess.WHITE) ? kingScore : -kingScore;
 
 		return material
-			+ ((int) Math.round(position.getDomination()))
-			+ kingScore
-			+ ((int) Math.round(8 * Math.random()));
+				+ ((int) Math.round(position.getDomination()))
+				+ kingScore
+				+ ((int) Math.round(8 * Math.random()));
 	}
 
 	private int bking, wking; // just local to avoid an extra call
-	
+
 	private int positionalEval() {
 		int score = 0;
 		int wbish = 0;
@@ -518,18 +537,18 @@ public class SimpleEngine implements ChessEngine {
 			bpback[i] = -1; // all the way forward
 		}
 		int wrook1 = -1, wrook2 = -1, brook1 = -1, brook2 = -1;
-		
+
 		for (int sqi = 0; sqi < Chess.NUM_OF_SQUARES; sqi++) {
 			//			Added in king tropism - DJK
 			int stone = position.getStone(sqi);
 			if ((stone != Chess.NO_STONE)
-				&& (stone != Chess.WHITE_PAWN)
-				&& (stone != Chess.BLACK_PAWN)
-				&& (stone != Chess.WHITE_BISHOP)
-				&& (stone != Chess.BLACK_BISHOP)) {
+					&& (stone != Chess.WHITE_PAWN)
+					&& (stone != Chess.BLACK_PAWN)
+					&& (stone != Chess.WHITE_BISHOP)
+					&& (stone != Chess.BLACK_BISHOP)) {
 				score += getKingTropism(sqi, stone);
 			}
-			
+
 			if (stone == Chess.WHITE_ROOK) {
 				if (wrook1 == -1) {
 					wrook1 = sqi;
@@ -543,7 +562,7 @@ public class SimpleEngine implements ChessEngine {
 					brook2 = sqi;
 				}
 			}
-			
+
 			if (stone == Chess.WHITE_PAWN) {
 				int file = Chess.sqiToCol(sqi) + 1;
 				int row = Chess.sqiToRow(sqi);
@@ -577,7 +596,7 @@ public class SimpleEngine implements ChessEngine {
 		// doubled rooks
 		score += connected(wrook1, wrook2);
 		score -= connected(brook1, brook2);
-		
+
 		// double and isolated
 		for (int i = 1; i < 9; i++) {
 			if (wpcount[i] > 1) {
@@ -611,8 +630,8 @@ public class SimpleEngine implements ChessEngine {
 				int row = Chess.sqiToRow(sqi);
 				// is it passed
 				if ((bpback[file] < row)
-					&& (bpback[file - 1] <= row)
-					&& (bpback[file + 1] <= row)) {
+						&& (bpback[file - 1] <= row)
+						&& (bpback[file + 1] <= row)) {
 					score += (row + 1) * 8 + ((row == 6) ? 30 : 0);
 				}
 			} else if (stone == Chess.BLACK_PAWN) {
@@ -620,8 +639,8 @@ public class SimpleEngine implements ChessEngine {
 				int row = Chess.sqiToRow(sqi);
 				// is it passed
 				if ((wpback[file] > row)
-					&& (wpback[file - 1] >= row)
-					&& (wpback[file + 1] >= row)) {
+						&& (wpback[file - 1] >= row)
+						&& (wpback[file + 1] >= row)) {
 					score -= (8 - row) * 8 + ((row == 1) ? 30 : 0);
 				}
 			} else if ((stone == Chess.WHITE_ROOK) || (stone == Chess.WHITE_QUEEN)) {
@@ -677,16 +696,16 @@ public class SimpleEngine implements ChessEngine {
 			sq1 = sq2;
 			sq2 = temp;
 		}
-		
+
 		if ((sq1 < 0) || (sq1 > 63) || (sq2 < 0) || (sq2 > 63)) {
 			return 0;
 		}
-		
+
 		int file1 = sq1%8;
 		int file2 = sq2%8;
 		int rank1 = sq1/8;
 		int rank2 = sq2/8;
-		
+
 		if (file1 == file2) {
 			for (int i = sq1+8; i < sq2; i+=8) {
 				if (position.getStone(i) != Chess.NO_STONE) {
@@ -705,11 +724,11 @@ public class SimpleEngine implements ChessEngine {
 			return 0;
 		}
 	}
-	
+
 	private int getKingTropism(int sqi, int stone) {
 		int score = 0;
 		int dcol, drow;
-		
+
 
 		switch (stone) {
 			case Chess.WHITE_ROOK :
@@ -773,8 +792,8 @@ public class SimpleEngine implements ChessEngine {
 		for (int i = 0; i < moves.length; i++) {
 			String temp = Move.getString(moves[i]);
 			if (temp.equalsIgnoreCase(move)
-				|| temp.equalsIgnoreCase(alt1)
-				|| temp.equalsIgnoreCase(alt2)) {
+					|| temp.equalsIgnoreCase(alt1)
+					|| temp.equalsIgnoreCase(alt2)) {
 				return moves[i];
 			}
 		}
@@ -886,7 +905,7 @@ public class SimpleEngine implements ChessEngine {
 		public int value;
 		//public short best;
 	}
-	
+
 	int ProbeHash(int depth, int alpha, int beta) {
 		Long hash = new Long(position.getHashCode());
 		HashEntry he = (HashEntry)hashTable.get(hash);
@@ -907,7 +926,7 @@ public class SimpleEngine implements ChessEngine {
 
 	}
 
- 
+
 
 	void RecordHash(int depth, int value, int hashf) {
 		Long hash = new Long(position.getHashCode());
@@ -933,12 +952,12 @@ public class SimpleEngine implements ChessEngine {
 	{
 		Vector<String> vector = new Vector<String>();
 		short[] moves = position.getAllMoves();
-		
+
 		for (int i = 0; i < moves.length; i++)
 		{
 			vector.add(Move.getString(moves[i]));
 		}
-		
+
 		return (String[]) vector.toArray();
 	}
 }

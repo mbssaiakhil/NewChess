@@ -71,7 +71,7 @@ public class KernelServerImpl implements KernelServer{
 		KernelObject object = null;
 		object = objectManager.lookupObject(rpc.getOID());
 		
-		logger.info("Invoking RPC on Kernel Object with OID: " + rpc.getOID() + "with rpc:" + rpc.getMethod() + " params: " + rpc.getParams().toString());
+		//logger.info("Invoking RPC on Kernel Object with OID: " + rpc.getOID() + "with rpc:" + rpc.getMethod() + " params: " + rpc.getParams().toString());
 		Object ret = null;
 		try {
 			ret = object.invoke(rpc.getMethod(), rpc.getParams());

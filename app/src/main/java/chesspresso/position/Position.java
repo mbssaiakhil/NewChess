@@ -18,11 +18,12 @@ package chesspresso.position;
 import chesspresso.*;
 import chesspresso.move.*;
 
+import java.io.Serializable;
 import java.util.*;
 import java.text.*;
 
 
-public final class Position extends AbstractMoveablePosition
+public final class Position extends AbstractMoveablePosition implements Serializable
 {
     
     /*================================================================================*/

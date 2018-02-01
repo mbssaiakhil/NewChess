@@ -63,6 +63,7 @@ public class MainActivity extends Activity {
 	private int ply = 0;
 	private boolean moveEnabled = false;
 	private SamplePrint samplePrint;
+    private static int cnt = 0;
 	
 	
 	private MyHandler mMyHandler = new MyHandler();
@@ -87,7 +88,7 @@ public class MainActivity extends Activity {
 			Registry registry;
 
 			// ToDo: DO not use direct String to configure, convert to a Configuration file and use the IPs
-			String[] hostAddress = {"192.168.42.184", "22346", "10.0.2.15", "22345"};
+			String[] hostAddress = {"192.168.0.6", "22346", "10.0.2.15", "22345"};
 			registry = LocateRegistry.getRegistry(hostAddress[0], Integer.parseInt(hostAddress[1]));
 			OMSServer server = (OMSServer) registry.lookup("SapphireOMS");
 
@@ -95,13 +96,16 @@ public class MainActivity extends Activity {
 
 			NewChessManager newChessManager = (NewChessManager) server.getAppEntryPoint();
 
-			SamplePrint samplePrint = newChessManager.getSamplePrintManager();
+			/*SamplePrint samplePrint = newChessManager.getSamplePrintManager();
 
 			for (int i = 0; i< 4; i++) {
 				samplePrint.printSampleLine();
 				samplePrint.printSampleLine2();
 				samplePrint.printSampleLine3();
-			}
+			}*/
+
+			engine = newChessManager.getSimpleEngine();
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -274,6 +278,7 @@ public class MainActivity extends Activity {
     private void makeComputerMove()
     {
     	System.out.println("Inside the makeComputerMove");
+
     	// TODO run in thread
     	this.boardView.displayPieces(engine.getBoard(ply));
 		//mMyHandler.machineGO();
@@ -330,7 +335,18 @@ public class MainActivity extends Activity {
      */
     private synchronized void computerMove()
     {
-    	System.out.println("Inside the computerMove()");
+    	//System.out.println("Inside the computerMove()");
+        System.out.println("Inside the computerMove() with count as " + cnt++);
+        if (cnt % 5 == 0) {
+            try {
+                System.out.println("Migrating object with cnt as " + cnt);
+                ((SimpleEngine)engine).migrateObject();
+                cnt++;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
     	//Synchronized
     	String temp = engine.go();
     	this.boardView.displayPieces(engine.getBoard(ply));
